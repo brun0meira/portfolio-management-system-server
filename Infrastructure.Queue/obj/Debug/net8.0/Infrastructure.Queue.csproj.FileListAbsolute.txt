@@ -1,0 +1,15 @@
+C:\Users\bruno\Documents\GitHub\portfolio-management-system-server\Infrastructure.Queue\bin\Debug\net8.0\Infrastructure.Queue.deps.json
+C:\Users\bruno\Documents\GitHub\portfolio-management-system-server\Infrastructure.Queue\bin\Debug\net8.0\Infrastructure.Queue.dll
+C:\Users\bruno\Documents\GitHub\portfolio-management-system-server\Infrastructure.Queue\bin\Debug\net8.0\Infrastructure.Queue.pdb
+C:\Users\bruno\Documents\GitHub\portfolio-management-system-server\Infrastructure.Queue\bin\Debug\net8.0\Domain.dll
+C:\Users\bruno\Documents\GitHub\portfolio-management-system-server\Infrastructure.Queue\bin\Debug\net8.0\Domain.pdb
+C:\Users\bruno\Documents\GitHub\portfolio-management-system-server\Infrastructure.Queue\obj\Debug\net8.0\Infrastructure.Queue.csproj.AssemblyReference.cache
+C:\Users\bruno\Documents\GitHub\portfolio-management-system-server\Infrastructure.Queue\obj\Debug\net8.0\Infrastructure.Queue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bruno\Documents\GitHub\portfolio-management-system-server\Infrastructure.Queue\obj\Debug\net8.0\Infrastructure.Queue.AssemblyInfoInputs.cache
+C:\Users\bruno\Documents\GitHub\portfolio-management-system-server\Infrastructure.Queue\obj\Debug\net8.0\Infrastructure.Queue.AssemblyInfo.cs
+C:\Users\bruno\Documents\GitHub\portfolio-management-system-server\Infrastructure.Queue\obj\Debug\net8.0\Infrastructure.Queue.csproj.CoreCompileInputs.cache
+C:\Users\bruno\Documents\GitHub\portfolio-management-system-server\Infrastructure.Queue\obj\Debug\net8.0\Infrastr.6EBF10CB.Up2Date
+C:\Users\bruno\Documents\GitHub\portfolio-management-system-server\Infrastructure.Queue\obj\Debug\net8.0\Infrastructure.Queue.dll
+C:\Users\bruno\Documents\GitHub\portfolio-management-system-server\Infrastructure.Queue\obj\Debug\net8.0\refint\Infrastructure.Queue.dll
+C:\Users\bruno\Documents\GitHub\portfolio-management-system-server\Infrastructure.Queue\obj\Debug\net8.0\Infrastructure.Queue.pdb
+C:\Users\bruno\Documents\GitHub\portfolio-management-system-server\Infrastructure.Queue\obj\Debug\net8.0\ref\Infrastructure.Queue.dll

@@ -1,0 +1,512 @@
+openapi: 3.0.1
+info:
+  title: Corretagem API
+  version: v1
+paths:
+  /api/Assets:
+    get:
+      tags:
+        - Assets
+      responses:
+        '200':
+          description: OK
+  '/api/Assets/{assetSymbol}/quote':
+    get:
+      tags:
+        - Assets
+      parameters:
+        - name: assetSymbol
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+  '/api/Assets/{assetSymbol}/history':
+    get:
+      tags:
+        - Assets
+      parameters:
+        - name: assetSymbol
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: period
+          in: query
+          schema:
+            type: string
+            default: 7d
+      responses:
+        '200':
+          description: OK
+  '/api/Assets/{assetSymbol}/volatility':
+    get:
+      tags:
+        - Assets
+      parameters:
+        - name: assetSymbol
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: period
+          in: query
+          schema:
+            type: string
+            default: 30d
+      responses:
+        '200':
+          description: OK
+  /api/Assets/asset/create:
+    post:
+      tags:
+        - Assets
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateAssetDto'
+          text/json:
+            schema:
+              $ref: '#/components/schemas/CreateAssetDto'
+          application/*+json:
+            schema:
+              $ref: '#/components/schemas/CreateAssetDto'
+      responses:
+        '200':
+          description: OK
+  /api/Assets/average-price/asset:
+    get:
+      tags:
+        - Assets
+      parameters:
+        - name: userId
+          in: query
+          schema:
+            type: string
+            format: uuid
+        - name: assetId
+          in: query
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: OK
+          content:
+            text/plain:
+              schema:
+                $ref: '#/components/schemas/AveragePriceResponseDto'
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AveragePriceResponseDto'
+            text/json:
+              schema:
+                $ref: '#/components/schemas/AveragePriceResponseDto'
+  /api/Reports/top-clients-by-position:
+    get:
+      tags:
+        - Reports
+      parameters:
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            format: int32
+            default: 5
+      responses:
+        '200':
+          description: OK
+          content:
+            text/plain:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/TopClientDto'
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/TopClientDto'
+            text/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/TopClientDto'
+  /api/Reports/top-clients-by-brokerage:
+    get:
+      tags:
+        - Reports
+      parameters:
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            format: int32
+            default: 10
+      responses:
+        '200':
+          description: OK
+  '/{userId}/operations':
+    get:
+      tags:
+        - User
+      parameters:
+        - name: userId
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: OK
+    post:
+      tags:
+        - User
+      parameters:
+        - name: userId
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateTradeDto'
+          text/json:
+            schema:
+              $ref: '#/components/schemas/CreateTradeDto'
+          application/*+json:
+            schema:
+              $ref: '#/components/schemas/CreateTradeDto'
+      responses:
+        '200':
+          description: OK
+  '/{userId}/positions':
+    get:
+      tags:
+        - User
+      parameters:
+        - name: userId
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: OK
+  '/{userId}/positions/{assetCode}':
+    get:
+      tags:
+        - User
+      parameters:
+        - name: userId
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+        - name: assetCode
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+  '/{userId}/brokerage-total':
+    get:
+      tags:
+        - User
+      parameters:
+        - name: userId
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: OK
+  '/{userId}/provisions':
+    get:
+      tags:
+        - User
+      parameters:
+        - name: userId
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: OK
+          content:
+            text/plain:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/UserProvisionDto'
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/UserProvisionDto'
+            text/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/UserProvisionDto'
+  '/{userId}/dividends':
+    post:
+      tags:
+        - User
+      parameters:
+        - name: userId
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateDividendDto'
+          text/json:
+            schema:
+              $ref: '#/components/schemas/CreateDividendDto'
+          application/*+json:
+            schema:
+              $ref: '#/components/schemas/CreateDividendDto'
+      responses:
+        '200':
+          description: OK
+  '/{userId}/pnl-history':
+    get:
+      tags:
+        - User
+      parameters:
+        - name: userId
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: OK
+  '/{userId}/simulate-operation':
+    post:
+      tags:
+        - User
+      parameters:
+        - name: userId
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SimulateOperationRequest'
+          text/json:
+            schema:
+              $ref: '#/components/schemas/SimulateOperationRequest'
+          application/*+json:
+            schema:
+              $ref: '#/components/schemas/SimulateOperationRequest'
+      responses:
+        '200':
+          description: OK
+  /summary:
+    get:
+      tags:
+        - User
+      parameters:
+        - name: year
+          in: query
+          schema:
+            type: integer
+            format: int32
+        - name: month
+          in: query
+          schema:
+            type: integer
+            format: int32
+      responses:
+        '200':
+          description: OK
+  /create:
+    post:
+      tags:
+        - User
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateUserDto'
+          text/json:
+            schema:
+              $ref: '#/components/schemas/CreateUserDto'
+          application/*+json:
+            schema:
+              $ref: '#/components/schemas/CreateUserDto'
+      responses:
+        '200':
+          description: OK
+components:
+  schemas:
+    AveragePriceResponseDto:
+      type: object
+      properties:
+        assetId:
+          type: string
+          format: uuid
+        averagePrice:
+          type: number
+          format: double
+      additionalProperties: false
+    CreateAssetDto:
+      type: object
+      properties:
+        code:
+          type: string
+          nullable: true
+        name:
+          type: string
+          nullable: true
+      additionalProperties: false
+    CreateDividendDto:
+      type: object
+      properties:
+        assetId:
+          type: string
+          format: uuid
+        dividendType:
+          $ref: '#/components/schemas/DividendType'
+        valuePerShare:
+          type: number
+          format: double
+        exDate:
+          type: string
+          format: date-time
+        paymentDate:
+          type: string
+          format: date-time
+      additionalProperties: false
+    CreateTradeDto:
+      type: object
+      properties:
+        assetId:
+          type: string
+          format: uuid
+        quantity:
+          type: integer
+          format: int32
+        unitPrice:
+          type: number
+          format: double
+        tradeType:
+          $ref: '#/components/schemas/TradeType'
+        tradeTime:
+          type: string
+          format: date-time
+      additionalProperties: false
+    CreateUserDto:
+      type: object
+      properties:
+        name:
+          type: string
+          nullable: true
+        email:
+          type: string
+          nullable: true
+        feePercentage:
+          type: number
+          format: double
+      additionalProperties: false
+    DividendType:
+      enum:
+        - 0
+        - 1
+      type: integer
+      format: int32
+    SimulateOperationRequest:
+      type: object
+      properties:
+        assetId:
+          type: string
+          format: uuid
+        quantity:
+          type: integer
+          format: int32
+        unitPrice:
+          type: number
+          format: double
+        tradeType:
+          $ref: '#/components/schemas/TradeType'
+        fee:
+          type: number
+          format: double
+      additionalProperties: false
+    TopClientDto:
+      type: object
+      properties:
+        userId:
+          type: string
+          format: uuid
+        name:
+          type: string
+          nullable: true
+        email:
+          type: string
+          nullable: true
+        totalPositionValue:
+          type: number
+          format: double
+      additionalProperties: false
+    TradeType:
+      enum:
+        - 0
+        - 1
+      type: integer
+      format: int32
+    UserProvisionDto:
+      type: object
+      properties:
+        assetCode:
+          type: string
+          nullable: true
+        assetName:
+          type: string
+          nullable: true
+        quantity:
+          type: integer
+          format: int32
+        dividendType:
+          type: string
+          nullable: true
+        valuePerShare:
+          type: number
+          format: double
+        totalValue:
+          type: number
+          format: double
+          readOnly: true
+        exDate:
+          type: string
+          format: date-time
+        paymentDate:
+          type: string
+          format: date-time
+      additionalProperties: false
