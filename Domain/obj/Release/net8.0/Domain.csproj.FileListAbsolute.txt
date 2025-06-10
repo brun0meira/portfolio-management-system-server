@@ -1,0 +1,13 @@
+/home/bruno/Documents/GitHub/testedeploy/Domain/bin/Release/net8.0/Domain.deps.json
+/home/bruno/Documents/GitHub/testedeploy/Domain/bin/Release/net8.0/Domain.dll
+/home/bruno/Documents/GitHub/testedeploy/Domain/bin/Release/net8.0/Domain.pdb
+/home/bruno/Documents/GitHub/testedeploy/Domain/obj/Release/net8.0/Domain.csproj.AssemblyReference.cache
+/home/bruno/Documents/GitHub/testedeploy/Domain/obj/Release/net8.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/bruno/Documents/GitHub/testedeploy/Domain/obj/Release/net8.0/Domain.AssemblyInfoInputs.cache
+/home/bruno/Documents/GitHub/testedeploy/Domain/obj/Release/net8.0/Domain.AssemblyInfo.cs
+/home/bruno/Documents/GitHub/testedeploy/Domain/obj/Release/net8.0/Domain.csproj.CoreCompileInputs.cache
+/home/bruno/Documents/GitHub/testedeploy/Domain/obj/Release/net8.0/Domain.sourcelink.json
+/home/bruno/Documents/GitHub/testedeploy/Domain/obj/Release/net8.0/Domain.dll
+/home/bruno/Documents/GitHub/testedeploy/Domain/obj/Release/net8.0/refint/Domain.dll
+/home/bruno/Documents/GitHub/testedeploy/Domain/obj/Release/net8.0/Domain.pdb
+/home/bruno/Documents/GitHub/testedeploy/Domain/obj/Release/net8.0/ref/Domain.dll

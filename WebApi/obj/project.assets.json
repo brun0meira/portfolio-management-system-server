@@ -2706,42 +2706,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bruno\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/home/bruno/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bruno\\Documents\\GitHub\\portfolio-management-system-server\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "/home/bruno/Documents/GitHub/testedeploy/WebApi/WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "C:\\Users\\bruno\\Documents\\GitHub\\portfolio-management-system-server\\WebApi\\WebApi.csproj",
-      "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bruno\\Documents\\GitHub\\portfolio-management-system-server\\WebApi\\obj\\",
+      "projectPath": "/home/bruno/Documents/GitHub/testedeploy/WebApi/WebApi.csproj",
+      "packagesPath": "/home/bruno/.nuget/packages/",
+      "outputPath": "/home/bruno/Documents/GitHub/testedeploy/WebApi/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/bruno/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\bruno\\Documents\\GitHub\\portfolio-management-system-server\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\bruno\\Documents\\GitHub\\portfolio-management-system-server\\Domain\\Domain.csproj"
+            "/home/bruno/Documents/GitHub/testedeploy/Domain/Domain.csproj": {
+              "projectPath": "/home/bruno/Documents/GitHub/testedeploy/Domain/Domain.csproj"
             },
-            "C:\\Users\\bruno\\Documents\\GitHub\\portfolio-management-system-server\\Infrastructure.Data\\Infrastructure.Data.csproj": {
-              "projectPath": "C:\\Users\\bruno\\Documents\\GitHub\\portfolio-management-system-server\\Infrastructure.Data\\Infrastructure.Data.csproj"
+            "/home/bruno/Documents/GitHub/testedeploy/Infrastructure.Data/Infrastructure.Data.csproj": {
+              "projectPath": "/home/bruno/Documents/GitHub/testedeploy/Infrastructure.Data/Infrastructure.Data.csproj"
             }
           }
         }
@@ -2750,13 +2743,7 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.300"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -2796,7 +2783,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,16 @@
+/home/bruno/Documents/GitHub/testedeploy/Infrastructure.Queue/bin/Release/net8.0/Infrastructure.Queue.deps.json
+/home/bruno/Documents/GitHub/testedeploy/Infrastructure.Queue/bin/Release/net8.0/Infrastructure.Queue.dll
+/home/bruno/Documents/GitHub/testedeploy/Infrastructure.Queue/bin/Release/net8.0/Infrastructure.Queue.pdb
+/home/bruno/Documents/GitHub/testedeploy/Infrastructure.Queue/bin/Release/net8.0/Domain.dll
+/home/bruno/Documents/GitHub/testedeploy/Infrastructure.Queue/bin/Release/net8.0/Domain.pdb
+/home/bruno/Documents/GitHub/testedeploy/Infrastructure.Queue/obj/Release/net8.0/Infrastructure.Queue.csproj.AssemblyReference.cache
+/home/bruno/Documents/GitHub/testedeploy/Infrastructure.Queue/obj/Release/net8.0/Infrastructure.Queue.GeneratedMSBuildEditorConfig.editorconfig
+/home/bruno/Documents/GitHub/testedeploy/Infrastructure.Queue/obj/Release/net8.0/Infrastructure.Queue.AssemblyInfoInputs.cache
+/home/bruno/Documents/GitHub/testedeploy/Infrastructure.Queue/obj/Release/net8.0/Infrastructure.Queue.AssemblyInfo.cs
+/home/bruno/Documents/GitHub/testedeploy/Infrastructure.Queue/obj/Release/net8.0/Infrastructure.Queue.csproj.CoreCompileInputs.cache
+/home/bruno/Documents/GitHub/testedeploy/Infrastructure.Queue/obj/Release/net8.0/Infrastructure.Queue.sourcelink.json
+/home/bruno/Documents/GitHub/testedeploy/Infrastructure.Queue/obj/Release/net8.0/Infrastructure.Queue.csproj.CopyComplete
+/home/bruno/Documents/GitHub/testedeploy/Infrastructure.Queue/obj/Release/net8.0/Infrastructure.Queue.dll
+/home/bruno/Documents/GitHub/testedeploy/Infrastructure.Queue/obj/Release/net8.0/refint/Infrastructure.Queue.dll
+/home/bruno/Documents/GitHub/testedeploy/Infrastructure.Queue/obj/Release/net8.0/Infrastructure.Queue.pdb
+/home/bruno/Documents/GitHub/testedeploy/Infrastructure.Queue/obj/Release/net8.0/ref/Infrastructure.Queue.dll
