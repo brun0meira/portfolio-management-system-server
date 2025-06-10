@@ -11,5 +11,6 @@ namespace Domain.Interfaces
         Task<List<PnLHistoryDto>> GetUserPnLHistoryAsync(Guid userId);
         Task AddUserAsync(CreateUserDto userDto);
         Task<User> GetUserByIdAsync(Guid userId);
+        Task<List<User>> GetAllUsersAsync();
     }
 }

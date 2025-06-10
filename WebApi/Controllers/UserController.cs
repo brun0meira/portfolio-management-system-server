@@ -28,12 +28,19 @@ public class UserController : ControllerBase
     [HttpGet("{userId}/operations")]
     public async Task<IActionResult> GetUserOperations(Guid userId)
     {
-        var trades = await _tradeRepository.GetTradesByUserIdAsync(userId);
+        var tradesDto = await _tradeRepository.GetTradesByUserIdAsync(userId);
 
-        if (trades == null || !trades.Any())
+        if (tradesDto == null || !tradesDto.Any())
             return NotFound(new { message = "Nenhuma operação encontrada para o usuário informado." });
 
-        return Ok(trades);
+        return Ok(tradesDto);
+    }
+
+    [HttpGet("get/all")]
+    public async Task<ActionResult<List<User>>> GetAllUsers()
+    {
+        var users = await _userRepository.GetAllUsersAsync();
+        return Ok(users);
     }
 
     // Obter posição consolidada de todos os ativos de um usuario

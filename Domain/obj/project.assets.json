@@ -457,11 +457,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/bruno/Documents/GitHub/testedeploy/Domain/Domain.csproj",
+      "projectUniqueName": "/home/bruno/Documents/GitHub/portfolio-management-system-server/Domain/Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "/home/bruno/Documents/GitHub/testedeploy/Domain/Domain.csproj",
+      "projectPath": "/home/bruno/Documents/GitHub/portfolio-management-system-server/Domain/Domain.csproj",
       "packagesPath": "/home/bruno/.nuget/packages/",
-      "outputPath": "/home/bruno/Documents/GitHub/testedeploy/Domain/obj/",
+      "outputPath": "/home/bruno/Documents/GitHub/portfolio-management-system-server/Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/bruno/.nuget/NuGet/NuGet.Config"

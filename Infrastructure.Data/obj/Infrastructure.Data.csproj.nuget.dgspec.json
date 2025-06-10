@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/bruno/Documents/GitHub/testedeploy/Infrastructure.Data/Infrastructure.Data.csproj": {}
+    "/home/bruno/Documents/GitHub/portfolio-management-system-server/Infrastructure.Data/Infrastructure.Data.csproj": {}
   },
   "projects": {
-    "/home/bruno/Documents/GitHub/testedeploy/Domain/Domain.csproj": {
+    "/home/bruno/Documents/GitHub/portfolio-management-system-server/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/bruno/Documents/GitHub/testedeploy/Domain/Domain.csproj",
+        "projectUniqueName": "/home/bruno/Documents/GitHub/portfolio-management-system-server/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/home/bruno/Documents/GitHub/testedeploy/Domain/Domain.csproj",
+        "projectPath": "/home/bruno/Documents/GitHub/portfolio-management-system-server/Domain/Domain.csproj",
         "packagesPath": "/home/bruno/.nuget/packages/",
-        "outputPath": "/home/bruno/Documents/GitHub/testedeploy/Domain/obj/",
+        "outputPath": "/home/bruno/Documents/GitHub/portfolio-management-system-server/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/bruno/.nuget/NuGet/NuGet.Config"
@@ -67,14 +67,14 @@
         }
       }
     },
-    "/home/bruno/Documents/GitHub/testedeploy/Infrastructure.Data/Infrastructure.Data.csproj": {
+    "/home/bruno/Documents/GitHub/portfolio-management-system-server/Infrastructure.Data/Infrastructure.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/bruno/Documents/GitHub/testedeploy/Infrastructure.Data/Infrastructure.Data.csproj",
+        "projectUniqueName": "/home/bruno/Documents/GitHub/portfolio-management-system-server/Infrastructure.Data/Infrastructure.Data.csproj",
         "projectName": "Infrastructure.Data",
-        "projectPath": "/home/bruno/Documents/GitHub/testedeploy/Infrastructure.Data/Infrastructure.Data.csproj",
+        "projectPath": "/home/bruno/Documents/GitHub/portfolio-management-system-server/Infrastructure.Data/Infrastructure.Data.csproj",
         "packagesPath": "/home/bruno/.nuget/packages/",
-        "outputPath": "/home/bruno/Documents/GitHub/testedeploy/Infrastructure.Data/obj/",
+        "outputPath": "/home/bruno/Documents/GitHub/portfolio-management-system-server/Infrastructure.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/bruno/.nuget/NuGet/NuGet.Config"
@@ -89,8 +89,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/bruno/Documents/GitHub/testedeploy/Domain/Domain.csproj": {
-                "projectPath": "/home/bruno/Documents/GitHub/testedeploy/Domain/Domain.csproj"
+              "/home/bruno/Documents/GitHub/portfolio-management-system-server/Domain/Domain.csproj": {
+                "projectPath": "/home/bruno/Documents/GitHub/portfolio-management-system-server/Domain/Domain.csproj"
               }
             }
           }

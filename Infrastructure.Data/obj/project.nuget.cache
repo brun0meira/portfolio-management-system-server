@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kfCkfrHcAe7bL0UcHUS0Q1Qj5SFmu6eb10Ghj1thM/jsoVNPxQGbr9XfIhPHY4Z+PKRswl+phIjpS15dSZYQJA==",
+  "dgSpecHash": "3Iu3I3dgOFX5I+2mg0lSLpcYrbIEFlPQ9gWsSAzWUYtTzG7dMHJHSI6Pm0cDj38iqaNHVt/tjwjOLS9yveL37Q==",
   "success": true,
-  "projectFilePath": "/home/bruno/Documents/GitHub/testedeploy/Infrastructure.Data/Infrastructure.Data.csproj",
+  "projectFilePath": "/home/bruno/Documents/GitHub/portfolio-management-system-server/Infrastructure.Data/Infrastructure.Data.csproj",
   "expectedPackageFiles": [
     "/home/bruno/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/bruno/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

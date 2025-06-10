@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yN9MtBa6U3finpbzCEm3v76KXbN8Sp1/xETfdlfYyG9+5jEy9C6onI0gZElzas+TldHsEFyZh4o8kOp8PsfBKA==",
+  "dgSpecHash": "ZtrIKqWYli9iMamk7La/9HdbKXiNZ9pLV/vol64Ev2SwsjR/Hnf0S9qdZrKar+iH1Cl+rkVck5wMLC9M+wmMIg==",
   "success": true,
-  "projectFilePath": "/home/bruno/Documents/GitHub/testedeploy/Domain/Domain.csproj",
+  "projectFilePath": "/home/bruno/Documents/GitHub/portfolio-management-system-server/Domain/Domain.csproj",
   "expectedPackageFiles": [
     "/home/bruno/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.1/microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
     "/home/bruno/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",

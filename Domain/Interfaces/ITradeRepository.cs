@@ -9,7 +9,7 @@ namespace Domain.Interfaces
 {
     public interface ITradeRepository
     {
-        Task<IEnumerable<Trade>> GetTradesByUserIdAsync(Guid userId);
+        Task<IEnumerable<TradeDto>> GetTradesByUserIdAsync(Guid userId);
         Task<Position> GetPositionByUserAndAssetAsync(Guid userId, Guid assetId);
         Task<Quote> GetLatestQuoteByAssetAsync(Guid assetId);
         Task<IEnumerable<Trade>> GetBuyTradesByAssetAsync(Guid userId, Guid assetId);

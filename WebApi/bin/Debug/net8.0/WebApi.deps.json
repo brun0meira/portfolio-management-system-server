@@ -597,10 +597,7 @@
           "Polly": "8.5.2"
         },
         "runtime": {
-          "Domain.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Domain.dll": {}
         }
       },
       "Infrastructure.Data/1.0.0": {
@@ -610,10 +607,7 @@
           "Pomelo.EntityFrameworkCore.MySql": "8.0.3"
         },
         "runtime": {
-          "Infrastructure.Data.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Infrastructure.Data.dll": {}
         }
       }
     }

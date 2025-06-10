@@ -19,12 +19,23 @@ namespace Infrastructure.Data.Repositories
             _context = context;
         }
 
-        public async Task<IEnumerable<Trade>> GetTradesByUserIdAsync(Guid userId)
+        public async Task<IEnumerable<TradeDto>> GetTradesByUserIdAsync(Guid userId)
         {
-            return await _context.Trades
+            var trades = await _context.Trades
                 .Include(t => t.Asset)
                 .Where(t => t.UserId == userId)
                 .ToListAsync();
+
+            return trades.Select(t => new TradeDto
+            {
+                Id = t.Id,
+                TradeTime = t.TradeTime,
+                AssetCode = t.Asset?.Code,
+                AssetName = t.Asset?.Name,
+                TradeType = t.TradeType, // ou mapear para "BUY"/"SELL"
+                Quantity = t.Quantity,
+                UnitPrice = t.UnitPrice
+            });
         }
 
         public async Task<Position> GetPositionByUserAndAssetAsync(Guid userId, Guid assetId)

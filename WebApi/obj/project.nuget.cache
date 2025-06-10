@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MXCwBC6wyqtPuIczzJU/xjnEw+iVEGZGiXUJP0gENdp22++etEaTzrG4ItZwgjSgfXajWAHJJp8WC7jjHRiHZg==",
+  "dgSpecHash": "Omdb+ch9qa+8wex+GyDTD1wVY0Rg+sb+5NHQy3clwvsfmkBA+89YaS6vY4b5IuuGfuZCEcBL4jMSTPLDQ83GQQ==",
   "success": true,
-  "projectFilePath": "/home/bruno/Documents/GitHub/testedeploy/WebApi/WebApi.csproj",
+  "projectFilePath": "/home/bruno/Documents/GitHub/portfolio-management-system-server/WebApi/WebApi.csproj",
   "expectedPackageFiles": [
     "/home/bruno/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/bruno/.nuget/packages/microsoft.aspnetcore.openapi/8.0.16/microsoft.aspnetcore.openapi.8.0.16.nupkg.sha512",
